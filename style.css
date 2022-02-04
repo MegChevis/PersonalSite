@@ -1,0 +1,153 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fcd2af;
+  margin: 0;
+
+}
+
+h1 {
+  text-align: right;
+  font-size: 4rem;
+  font-weight: 500;
+  padding-top: 200px;
+  padding-bottom: 150px;
+
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+ul{
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+.welcome-container{
+  background-image: url(images/drone.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  text-align: right;
+}
+
+.welcome-button{
+  font-size: 2.5rem;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.welcome-button:hover {
+  color:#000;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 5% 15% 7% 15%;
+}
+
+/* About section */
+
+#about {
+  position: relative;
+}
+
+.section-header{
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding: 75px 100px 0 100px;
+}
+
+.about-image {
+  width: 30%;
+  border-radius: 25% 10%;
+  margin: 20px 50px 20px 20px;
+  float: left;
+}
+
+.about-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.about-p {
+  margin-top: 30px;
+}
+
+.about-icon{
+  float: left;
+  margin: 20px 50px 20px 20px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  background-color: #c2e8fc;
+  position: relative;
+}
+
+.portfolio-container{
+  padding: 7% 7%;
+}
+
+
+.port-column {
+  padding: 3% 2%;
+}
+
+.portfolio-image {
+  width: 100%;
+  padding-bottom: 7%;
+  border-radius: 10%;
+}
+
+.port-head {
+  text-align: center;
+}
+
+
+/* Footer */
+
+#contact {
+  background-image: url(images/drone.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  text-align: center;
+}
+
+.footer-icon {
+  padding: 1rem 1rem 3rem 1rem;
+  color: #000;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-header {
+  color: #fff;
+}
+
+@media (max-width:1028px) {
+  .welcome-container {
+    background-size: cover;
+  }
+
+  #contact {
+    background-size: cover;
+  }
+}
